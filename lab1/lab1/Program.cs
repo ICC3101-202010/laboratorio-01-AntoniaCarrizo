@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Laboratorio1AntoniaCarrizo
+namespace lab1
 {
     class MainClass
     {
