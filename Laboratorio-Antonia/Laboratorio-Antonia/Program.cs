@@ -6,7 +6,10 @@ namespace LaboratorioAntonia
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Person per = new Person("Bob","Kunga");
+            Console.WriteLine("Nombre: {0}",per.Name);
+            Console.WriteLine("Apellido: {0}", per.Lastname);
+            
         }
     }
 }
