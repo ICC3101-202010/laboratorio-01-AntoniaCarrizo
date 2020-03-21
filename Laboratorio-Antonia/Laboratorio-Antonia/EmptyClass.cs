@@ -15,19 +15,25 @@ namespace LaboratorioAntonia
         }
 
         //get y set
-        public string Name
+        public string Name()
         {
-            set { name = value; }
-            get { return name; }    
+            return name;    
         }
 
-        public string Lastname
+        public string Lastname()
         {
-            set { lastname = value; }
-            get { return lastname; } 
+            return lastname;
         }
 
-
+        //comportamiento: lanzamiento 
+        public int Launch()
+        {
+            Random play = new Random();
+            int num;
+            num = play.Next(0, 3);
+            return num; 
+        }
+            
         
 
     }
